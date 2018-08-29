@@ -1,0 +1,15 @@
+zap-little-cards {
+  .card-outline {
+    overflow-y: scroll;
+    border: solid 2px #000;
+    background: none;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 600px;
+    margin: 12px;
+    border: solid 1px;
+    height: 300px;
+  }
+}

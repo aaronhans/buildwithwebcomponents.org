@@ -1,0 +1,15 @@
+<span class="card-outline">
+  ${
+    (function() {
+      let outputHTML = '';
+      if(scope.title) {
+        outputHTML += `<h2><a href="${scope.url}">${scope.title}</a></h2>`;
+      }
+      if(scope.html) {
+        outputHTML += scope.html;
+      }
+        return outputHTML;
+    })()
+  }
+</span>
+  

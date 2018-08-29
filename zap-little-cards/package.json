@@ -1,0 +1,51 @@
+{
+  "name": "@zaplabs/zap-little-cards",
+  "version": "1.0.0",
+  "description": "test code is in develop branch",
+  "main": "src/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "test": "cypress open --project ./",
+    "eslint": "node_modules/.bin/eslint --debug --config node_modules/@zaplabs/eslint-config/index.js src",
+    "build": "webpack --progress --colors",
+    "watch": "webpack --progress --colors --watch",
+    "start:dev": "webpack-dev-server --open",
+    "prepublishOnly": "npm version patch && npm run build"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run eslint"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://stash.aur.ziprealty.com:7990/projects/WBC/repos/zap-little-cards/browse"
+  },
+  "devDependencies": {
+    "@webcomponents/webcomponentsjs": "^1.1.1",
+    "@zaplabs/eslint-config": "^1.0.2",
+    "css-loader": "^0.28.5",
+    "eslint": "^4.19.1",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.3",
+    "template-string-loader": "0.0.4",
+    "to-string-loader": "^1.1.5",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.3",
+    "husky": "^1.0.0-rc.6"
+  },
+  "keywords": [
+    "web component"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@zaplabs/zap-shared-styles": "^1.0.4"
+  }
+}

@@ -1,0 +1,8 @@
+#!/usr/bin/env groovy
+
+@Library('webcomponents-pipeline') _
+
+buildPipeline {
+    // set this property to notify a Slack channel with build results
+    // notificationSlackChannel = '#zapstore-dev'
+}
