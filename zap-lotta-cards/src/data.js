@@ -1,6 +1,47 @@
 export default { "content": [
   { 
     "type": "tweet",
+    "url" : "https://twitter.com/slightlylate/status/1062937920137388032",
+    "html": "<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang=\"en\" dir=\"ltr\">I think <a href=\"https://twitter.com/justinfagnani?ref_src=twsrc%5Etfw\">@justinfagnani</a> burried the lede: web components enable the same things as legacy userland frameworks but with much, much less JS/main-thread pollution, e.g.: <a href=\"https://t.co/ksVOrHSuYP\">https://t.co/ksVOrHSuYP</a><br><br>Parse this talk carefully, it&#39;s much deeper than it looks: <a href=\"https://t.co/aXknvYENkD\">https://t.co/aXknvYENkD</a></p>&mdash; Alex Russell (@slightlylate) <a href=\"https://twitter.com/slightlylate/status/1062937920137388032?ref_src=twsrc%5Etfw\">November 15, 2018</a></blockquote>"
+  },
+  { 
+    "type": "article",
+    "title": "The Power of Web Components",
+    "html": "Ever since the first animated DHTML cursor trails and \"Site of the Week\" badges graced the web, re-usable code has been a temptation for web developers. And ever since those heady days, integrating third-party UI into your site has been, well, a semi-brittle headache.<br><br>Defining your own working HTML elements requires new powers the browser didn't previously give developers. I'll be calling out these previously-impossible bits in each section, as well as what other newer web technologies they draw upon.",
+    "url" : "https://hacks.mozilla.org/2018/11/the-power-of-web-components/"
+  },
+  { 
+    "type": "tweet",
+    "url" : "https://twitter.com/MSEdgeUpdates/status/1049404076499320835",
+    "html": "<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang=\"en\" dir=\"ltr\">The status of Custom Elements was changed from &quot;Under Consideration&quot; to &quot;In Development&quot; <a href=\"https://t.co/zd20fN1aHw\">https://t.co/zd20fN1aHw</a></p>&mdash; Edge Platform Updates (@MSEdgeUpdates) <a href=\"https://twitter.com/MSEdgeUpdates/status/1049404076499320835?ref_src=twsrc%5Etfw\">October 8, 2018</a></blockquote>"
+  },
+  { 
+    "type": "tweet",
+    "html" : "<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang=\"en\" dir=\"ltr\">The future of Web Components looks better and better! <a href=\"https://t.co/JAvh5BzIQl\">pic.twitter.com/JAvh5BzIQl</a></p>&mdash; Abdón Rodríguez (@abdonrd) <a href=\"https://twitter.com/abdonrd/status/1049409586850131969?ref_src=twsrc%5Etfw\">October 8, 2018</a></blockquote>",
+    "url": "https://twitter.com/abdonrd/status/1049409586850131969"
+  },
+  { 
+    "type": "tweet",
+    "html" : "<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang=\"en\" dir=\"ltr\">If you folks were still looking for a reason to use <a href=\"https://twitter.com/hashtag/WebComponents?src=hash&amp;ref_src=twsrc%5Etfw\">#WebComponents</a> for real, here is one: The more you delegate to the browser, the smallest your app can be! <a href=\"https://twitter.com/hashtag/useThePlatform?src=hash&amp;ref_src=twsrc%5Etfw\">#useThePlatform</a><br>Demos: <a href=\"https://t.co/5eo8NrxZQb\">https://t.co/5eo8NrxZQb</a> <br>Repo: <a href=\"https://t.co/dWlM4Hsz4P\">https://t.co/dWlM4Hsz4P</a> <a href=\"https://t.co/63riTOsbzV\">pic.twitter.com/63riTOsbzV</a></p>&mdash; Julien Renaux (@julienrenaux) <a href=\"https://twitter.com/julienrenaux/status/1049212830367539200?ref_src=twsrc%5Etfw\">October 8, 2018</a></blockquote>",
+    "url": "https://twitter.com/julienrenaux/status/1049212830367539200"
+  },
+  { 
+    "type": "tweet",
+    "url" : "https://twitter.com/TheLarkInn/status/1044339725803241472",
+    "html": "<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang=\"en\" dir=\"ltr\">Please when you are choosing a framework or solution for a long term / scaled project, consider the &quot;cost to escape&quot;<br><br>I can&#39;t tell you how many teams at MS building web products came for fixing perf &quot;rat problems&quot; _ASAP_ had to hear &quot;You literally have to drop this framework&quot; 😳</p>&mdash; Sean Thomas Larkin (肖恩) (@TheLarkInn) <a href=\"https://twitter.com/TheLarkInn/status/1044339725803241472?ref_src=twsrc%5Etfw\">September 24, 2018</a></blockquote>"
+  },
+  { 
+    "type": "tweet",
+    "html" : "<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang=\"en\" dir=\"ltr\">Really starting to feel like Ionic&#39;s investment in web components is paying off. The focus on long-term standards and hedge against uncertainty in the JavaScript ecosystem is really resonating with users/customers. Web Components are a compelling way forward for many teams</p>&mdash; Max Lynch (@maxlynch) <a href=\"https://twitter.com/maxlynch/status/1042436620803354625?ref_src=twsrc%5Etfw\">September 19, 2018</a></blockquote>",
+    "url": "https://twitter.com/maxlynch/status/1042436620803354625"
+  },
+  { 
+    "type": "tweet",
+    "html" : "<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang=\"en\" dir=\"ltr\">Related thought, since we&#39;re getting into the analogies here — implicitly prioritising DX over UX, on the basis that happier and more productive teams will be able to deliver better user experience, is essentially trickle-down economics <a href=\"https://t.co/4Qq2BbZyFn\">https://t.co/4Qq2BbZyFn</a></p>&mdash; Rich Harris (@Rich_Harris) <a href=\"https://twitter.com/Rich_Harris/status/1039847400062574596?ref_src=twsrc%5Etfw\">September 12, 2018</a></blockquote>",
+    "url": "https://twitter.com/Rich_Harris/status/1039847400062574596"
+  },
+  { 
+    "type": "tweet",
     "url" : "https://twitter.com/slightlylate/status/1032868419035529216",
     "html": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">FWIW, I&#39;ve never heard an experienced manager say &quot;I&#39;d love it if the components we&#39;ve spent months building stayvlocked up in a single framework that we can never abandon or require constant porting/rebuilding&quot; <a href=\"https://t.co/KXfchGo7gX\">https://t.co/KXfchGo7gX</a></p>&mdash; Alex Russell (@slightlylate) <a href=\"https://twitter.com/slightlylate/status/1032868419035529216?ref_src=twsrc%5Etfw\">August 24, 2018</a></blockquote>"
   },
