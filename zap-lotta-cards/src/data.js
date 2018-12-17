@@ -1,5 +1,16 @@
 export default { "content": [
   { 
+    "type": "article",
+    "title": "Introducing Lightning Web Components",
+    "html": "Lightning Web Components is a new programming model for building Lightning components. It leverages the web standards breakthroughs of the last five years, can coexist and interoperate with the original Aura programming model, and delivers unparalleled performance.",
+    "url" : "https://developer.salesforce.com/blogs/2018/12/introducing-lightning-web-components.html"
+  },
+  {
+    "type": "tweet",
+    "url" : "https://twitter.com/castastrophee/status/1071596947025342464",
+    "html": "<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang=\"en\" dir=\"ltr\"><a href=\"https://t.co/tTe8YmpBVO\">https://t.co/tTe8YmpBVO</a><br>^ It&#39;s this project specifically.  Building web components with this group in this way has been such a treat.  We&#39;re making something really incredible; I&#39;m proud to be a part of it!<br><br>Note: This project is being renamed to PatternFly Elements.</p>&mdash; castastrophe (@castastrophee) <a href=\"https://twitter.com/castastrophee/status/1071596947025342464?ref_src=twsrc%5Etfw\">December 9, 2018</a></blockquote>"
+  },
+  { 
     "type": "tweet",
     "url" : "https://twitter.com/slightlylate/status/1062937920137388032",
     "html": "<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang=\"en\" dir=\"ltr\">I think <a href=\"https://twitter.com/justinfagnani?ref_src=twsrc%5Etfw\">@justinfagnani</a> burried the lede: web components enable the same things as legacy userland frameworks but with much, much less JS/main-thread pollution, e.g.: <a href=\"https://t.co/ksVOrHSuYP\">https://t.co/ksVOrHSuYP</a><br><br>Parse this talk carefully, it&#39;s much deeper than it looks: <a href=\"https://t.co/aXknvYENkD\">https://t.co/aXknvYENkD</a></p>&mdash; Alex Russell (@slightlylate) <a href=\"https://twitter.com/slightlylate/status/1062937920137388032?ref_src=twsrc%5Etfw\">November 15, 2018</a></blockquote>"
